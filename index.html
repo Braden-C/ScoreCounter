@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+
+</head>
+
+<body>
+
+    <h1>Score Keeper</h1>
+    <div id="playerNamesContainer">
+        <input type="text" placeholder="Player 1" id="playerName1" required="required">
+        <input type="text" placeholder="Player 2" id="playerName2" required="required">
+    </div>
+    <h2 id="scoreContainer"><span id="p1Display"> 0</span> to <span id="p2Display"> 0</span></h2>
+    <div id="selectors">
+        <div>use the buttons to keep score</div>
+        <label for="maxScore" id="playingTo"><b>Playing To</b></label>
+        <select name="maxScore" id="maxScore">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+    </div>
+    <div class="tickButtons">
+        <button id="player1Scored">Player1+</button>
+        <button id="player2Scored">Player2+</button>
+        <button id="reset">Reset</button>
+    </div>
+    </b>
+    <script src="app.js"></script>
+</body>
+<link rel="stylesheet" href="app.css">
+
+</html>
